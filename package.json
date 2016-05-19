@@ -1,0 +1,36 @@
+{
+  "name": "flowee-admin",
+  "version": "1.0.0",
+  "author": "2webapp",
+  "keywords": [],
+  "description": "A ng-admin interface for flowee",
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "coffee-script": "",
+    "compression": "^1.6.2",
+    "express": "^4.13.4",
+    "express-minify": "^0.1.6",
+    "request": "^2.58.0",
+    "es6-promise": "^3.2.1",
+    "ng-admin": "^0.9.1",
+    "whatwg-fetch": "^1.0.0"
+  },
+  "engines": {
+    "node": ">= 0.8.x",
+    "npm": ">= 1.1.x"
+  },
+  "main": "app.js",
+  "scripts": {
+    "start": "app.js"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "license": "ISC"
+}
